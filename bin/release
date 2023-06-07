@@ -1,0 +1,12 @@
+#!/bin/sh
+
+BUILD_DIR=${1:-}
+DEPLOY_DIR="/app/build/web/"
+
+cat <<EOF
+---
+default_process_types:
+    web:
+        sh -c 'echo "PORT IS \${PORT}" && /app/dart-sdk/bin/dart pub global run dhttpd --host 0.0.0.0 --path=${DEPLOY_DIR} --port=\${PORT}'
+
+EOF

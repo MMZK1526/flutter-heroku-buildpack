@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# bin/detect BUILD_DIR
+
+# this pack is valid for Flutter Web Apps. We detect it by checking if "pubspec.yaml" and "web/" are present.
+if [ -f $1/pubspec.yaml ] && [ -d $1/web ]; then
+  echo "Flutter"
+  exit 0
+else
+  exit 1
+fi
