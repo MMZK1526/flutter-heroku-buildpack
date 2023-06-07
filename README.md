@@ -4,7 +4,7 @@
 
 A Buildpack that enables the deployment of Flutter Web Apps on Heroku.
 
-It is inspired by this [buildpack](https://github.com/diezep/heroku-buildpack-flutter) by [diezep](https://github.com/diezep). Originally a fork to fix a bug, it is now a more lightweight version without relying on a forked version of `dhttpd`.
+It is inspired by this [Buildpack](https://github.com/diezep/heroku-buildpack-flutter) by [diezep](https://github.com/diezep). Originally a fork to fix a bug, it is now a more lightweight version without relying on a forked version of `dhttpd`.
 
 ## Setup
 
