@@ -8,7 +8,7 @@ It is inspired by this [buildpack](https://github.com/diezep/heroku-buildpack-fl
 
 ## Setup
 
-To add this buildpack to your Flutter Web App hosted on Heroku, copy the [link](TODO) of this repository and paste it in buildpacks.
+To add this buildpack to your Flutter Web App hosted on Heroku, copy the [link](https://github.com/MMZK1526/flutter-heroku-buildpack) of this repository and paste it in buildpacks.
 
 ## Why making one more buildpack?
 
