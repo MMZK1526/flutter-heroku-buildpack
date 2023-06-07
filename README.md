@@ -2,15 +2,15 @@
 
 ## Introduction
 
-Automate your deployments on Heroku easily.
+A Buildpack that enables the deployment of Flutter Web Apps on Heroku.
 
 It is inspired by this [buildpack](https://github.com/diezep/heroku-buildpack-flutter) by [diezep](https://github.com/diezep). Originally a fork to fix a bug, it is now a more lightweight version without relying on a forked version of `dhttpd`.
 
 ## Setup
 
-To add this buildpack to your Flutter Web App hosted on Heroku, copy the [link](https://github.com/MMZK1526/flutter-heroku-buildpack) of this repository and paste it in buildpacks.
+To add this Buildpack to your Flutter Web App hosted on Heroku, simply copy the [link](https://github.com/MMZK1526/flutter-heroku-buildpack) of this repository and paste it in buildpacks. Alternatively, you can enter the Buildpack URL `mmzk1526/flutter`.
 
-## Why making one more buildpack?
+## Why making one more Buildpack?
 
 The original buildpack was using a forked version of `dhttpd` to serve the files. Because of that, it has been out of date for a while, and it no longer works with the latest version of Dart.
 
